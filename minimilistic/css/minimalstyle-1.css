@@ -1,0 +1,111 @@
+/*
+Theme Name: Minimal Design 1
+Theme URI: 
+Description: Minimal Login page for Commercial purpose
+Author: Bejoy NJ 
+Author URI: www.bejoynj.com
+*/
+@font-face{
+    font-family: "FontAwesome";
+    src:url(../fonts/fontawesome/css/font-awesome.min.css);
+} 
+@font-face{
+    font-family:"Lato-Bold";
+    src:url(../fonts/lato/Lato-Bold.ttf);
+} 
+@font-face{
+    font-family:"Lato-BoldItalic";
+    src:url(../fonts/lato/Lato-BoldItalic.ttf);
+}
+@font-face{
+    font-family:"Lato-Regular";
+    src:url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face{
+    font-family:"Lato-Light";
+    src:url(../fonts/lato/Lato-Light.ttf);
+}
+@font-face{
+    font-family:"Lato-Hairline";
+    src:url(../fonts/lato/Lato-Hairline.ttf);
+}
+html,
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ececec;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Lato-Bold";
+}
+a,p,span, label{
+    font-family:"Lato-Regular";
+    color: #616161;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+input[type="email"],input[type="password"]{
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+        padding: 10px 0px;
+    text-align: center;
+        border: 1px solid #616161;
+     box-sizing : border-box;
+    outline: none;
+}   
+input::-webkit-input-placeholder{
+    color: #bcbcbc;
+}
+input:focus::-webkit-input-placeholder{
+     -webkit-transition: color ease-in-out 0.1s;
+    -o-transition: color ease-in-out 0.1s;
+    transition: color ease-in-out 0.1s;
+    color: #fff;
+}
+input[type=submit]{
+ display: table;
+    border:2px solid #616161;
+    background-color: #616161;
+    color: #fff;
+    padding: 10px 60px;
+           margin: 0px auto 0px auto;
+        text-transform: uppercase;
+        cursor: pointer;
+        outline: none;
+}
+input[type=submit]:hover{
+        background-color: transparent;
+    color: #616161;
+    -webkit-transition:  ease 0.5s;
+    -o-transition:  ease 0.5s;
+    transition:  ease 0.5s;
+}
+.wrap-loginbox{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 30px;
+    background-color: #fff;
+    margin-top: 140px;
+}
+.wrap-loginbox h1{
+    color: #616161;
+    font-family:"Lato-Light";
+   }
+   .wrap-loginbox a{
+    text-decoration:none;
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+}
+.clear-fix{
+    clear: both;
+}
