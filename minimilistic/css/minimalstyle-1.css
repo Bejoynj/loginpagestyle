@@ -69,6 +69,30 @@ input:focus::-webkit-input-placeholder{
     transition: color ease-in-out 0.1s;
     color: #fff;
 }
+label{
+    margin-bottom: 20px;
+    display: block;
+}
+input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    -webkit-appearance:none;
+    cursor: pointer;
+    color: #616161;
+    margin: -3px 10px;
+    background-color: #fff;
+}
+input[type=checkbox]:checked:before {
+     font-family: FontAwesome;
+   content: "\f00c";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #616161;
+    text-align: left;
+    line-height: 15px;
+}
 input[type=submit]{
  display: table;
     border:2px solid #616161;

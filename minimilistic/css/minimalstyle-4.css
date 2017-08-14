@@ -74,22 +74,46 @@ input:focus::-webkit-input-placeholder{
     transition: color ease-in-out 0.1s;
     color: #fff;
 }
+label{
+    margin-bottom: 20px;
+    display: block;
+}
+input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    -webkit-appearance:none;
+    cursor: pointer;
+    color: #616161;
+    margin: -3px 10px;
+    background-color: #fff;
+}
+input[type=checkbox]:checked:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #616161;
+    text-align: left;
+    line-height: 15px;
+}
 input[type=submit]{
- display: table;
-     border: 2px solid #616161;
+    display: table;
+    border: 2px solid #616161;
     background-color: #616161;
     color: #fff;
     padding: 10px 60px;
-           margin: 0px auto 0px auto;
-        text-transform: uppercase;
-        cursor: pointer;
-        outline: none;
-            border-radius: 25px;
+    margin: 0px auto 0px auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
     height: 45px;
-     float: left;
+    float: left;
 }
 input[type=submit]:hover{
-        background-color: transparent;
+    background-color: transparent;
     color: #616161;
     -webkit-transition:  ease 0.5s;
     -o-transition:  ease 0.5s;
@@ -106,16 +130,16 @@ input[type=submit]:hover{
 }
 .wrap-loginbox h1{
     font-size: 32px;
-        margin: 10px 0px;
+    margin: 10px 0px;
     color: #616161;
     font-family:"Lato-Light";
-   }
-   .wrap-loginbox a{
+}
+.wrap-loginbox a{
     text-decoration:none;
     margin-top: 10px;
     display: block;
     font-size: 14px;
-     float: right;
+    float: right;
 }
 .clear-fix{
     clear: both;
